@@ -29,10 +29,51 @@
   --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
   --color-muted: var(--muted);
+
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary: var(--secondary);
+
   --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
+  --color-primary-default: var(--primary-default);
+  --color-primary-admin: var(--primary-admin);
+
+  --color-green : #027A48;
+  --color-green-100 : #E6F9ED;
+  --color-green-400 : #C4E8D4;
+  --color-green-500 : #A0D6B8;
+  --color-green-800 : #7CC4A0;
+
+  --color-red : #027A48;
+  --color-red-400 : #FDE8E6;
+  --color-red-500 : #F9C4C0;
+  --color-red-800 : #F6A09A;
+
+  --color-bleu-100 : #F6A09A;
+
+  
+  --color-light-100 : #FDE8E6;
+  --color-light-200 : #F9C4C0;
+  --color-light-300 : #F6A09A;      
+  --color-light-400 : #F6A09A;
+  --color-light-500 : #F6A09A;
+  --color-light-600 : #F6A09A;
+  --color-light-700 : #F6A09A;
+  --color-light-800 : #F6A09A;
+
+  
+  --color-dark-100 : #FDE8E6;
+  --color-dark-200 : #F9C4C0;
+  --color-dark-300 : #F6A09A;
+  --color-dark-400 : #F6A09A;
+  --color-dark-500 : #F6A09A;
+  --color-dark-600 : #F6A09A;
+  --color-dark-700 : #F6A09A;
+  --color-dark-800 : #F6A09A;
+
+  --color-gray-100 : #FDE8E6;
+  
+  --breakpoint-xs: 480px;
+
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
@@ -51,7 +92,11 @@
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
+  --primary-default: oklch(0.208 0.042 265.755);
+  --primary-admin: oklch(0.208 0.042 265.755);
+
+
+
   --primary-foreground: oklch(0.984 0.003 247.858);
   --secondary: oklch(0.968 0.007 247.896);
   --secondary-foreground: oklch(0.208 0.042 265.755);
